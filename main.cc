@@ -117,7 +117,7 @@ void experiment(uint32_t nNodes, uint32_t packetSize, bool verbose, bool pcap, u
   // Use netanim to visualize the experiment
   char animfile[100];
   sprintf(animfile, "anim-%d-nodes.xml", nNodes); // Save the result in an xml file
-  AnimationInterface anim(animfile);
+  AnimationInterface anim(animfile);  //visualisation of animfiles by netAnim using NS3
   Simulator::Stop(Seconds(simTime));
   Simulator::Run();
 
