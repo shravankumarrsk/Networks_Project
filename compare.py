@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import numpy as np
 
 # Read client loss ratio values for sv0-ps512
 with open('summarizedData/sv0-ps512.csv', 'r') as f:
